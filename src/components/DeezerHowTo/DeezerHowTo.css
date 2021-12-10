@@ -1,0 +1,54 @@
+.deezerWrapper {
+  overflow: scroll;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.deezerThreeDots {
+  padding: 20px 0px;
+  align-self: center;
+  width: 10em;
+}
+
+.deezerShareButton {
+  padding: 20px 0px;
+  align-self: center;
+  width: 15em;
+}
+
+.deezerCopyButton {
+  padding: 20px 0px;
+  align-self: center;
+  width: 20em;
+}
+
+.deezerNewTab {
+  padding: 20px 0px;
+  align-self: center;
+  width: 25em;
+}
+
+.deezerCorrectLink {
+  padding: 20px 0px;
+  align-self: center;
+  width: 45em;
+}
+
+.close {
+  padding: 40px 0px;
+  transition: all ease-in-out 0.2s;
+  align-self: center;
+}
+
+.close:hover {
+  cursor: pointer;
+  color: rgb(64, 156, 255);
+}

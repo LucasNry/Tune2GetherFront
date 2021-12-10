@@ -1,0 +1,12 @@
+.linkWrapper {
+  vertical-align: middle;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+  height: 10%;
+}
+
+.streamingServicesLogo {
+  width: 3.4em;
+}

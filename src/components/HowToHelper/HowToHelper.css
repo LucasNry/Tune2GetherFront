@@ -1,0 +1,37 @@
+.howToWrapper {
+  min-width: 100vh;
+  width: 100%;
+  min-width: 100vh;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  transition: all ease-in-out 0.5s;
+  overflow: hidden;
+}
+
+.serviceSelect {
+  font-weight: bold;
+  font-size: medium;
+  width: 8em;
+  border: 10px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.howToText {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  color: white;
+  transition: all ease-in-out 0.2s;
+}
+
+.howToText:hover {
+  color: rgb(64, 156, 255);
+  cursor: pointer;
+}
+
+.hidden {
+  height: 0vh;
+}
