@@ -1,24 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./resources/logo.png";
+import supportedServicesImg from "./resources/Supported services.png";
+import "./App.css";
+import { BrowserRouter, Route, Routes, Link } from "react-router-dom";
+import React from "react";
+import { Home } from "./components/Home/Home";
+import { LinkScreen } from "./components/LinkScreen/LinkScreen";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <div className="App">
+        <header className="App-header">
+          <Link to="/">
+            <img className="tune2GetherLogo" src={logo} alt="logo" />
+          </Link>
+        </header>
+        <body>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="link/:universalId" element={<LinkScreen />} />
+            {/* <Route path="*" element={<Home />} /> - TODO: No match route  */}
+          </Routes>
+        </body>
+        <footer>
+          <img src={supportedServicesImg} alt="supportedServices" />
+        </footer>
+      </div>
+    </BrowserRouter>
   );
 }
 

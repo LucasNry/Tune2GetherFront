@@ -1,0 +1,36 @@
+.spotifyWrapper {
+  overflow: scroll;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+  height: 100vh;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.spotifyThreeDots {
+  padding: 20px 0px;
+  align-self: center;
+  width: 8em;
+}
+
+.spotifyCopySongButton {
+  padding: 20px 0px;
+  align-self: center;
+  width: 15em;
+}
+
+.close {
+  padding: 20px 0px;
+  transition: all ease-in-out 0.2s;
+  align-self: center;
+}
+
+.close:hover {
+  cursor: pointer;
+  color: rgb(64, 156, 255);
+}
