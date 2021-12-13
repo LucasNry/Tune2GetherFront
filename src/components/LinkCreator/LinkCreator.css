@@ -89,7 +89,7 @@
   background: #191414;
 }
 
-.YOUTUBE {
+.Youtube {
   color: black;
   background: #f7f7f7;
 }
@@ -104,12 +104,12 @@
   background: #191414;
 }
 
-.YOUTUBE:hover {
+.Youtube:hover {
   color: #ff0000;
   background: #f7f7f7;
 }
 
-.Deezer {
-  color: #00c7f2;
+.Deezer:hover {
+  color: #c2ff00;
   background-color: #ff0092;
 }
