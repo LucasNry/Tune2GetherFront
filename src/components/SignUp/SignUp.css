@@ -1,0 +1,29 @@
+.registerButton {
+  margin: 20px 0px;
+  width: auto;
+  height: 3em;
+  transition: all ease-in-out 0.4s;
+}
+
+.signUpFormWrapper {
+  height: 25em;
+  display: flex;
+  flex-direction: column;
+}
+
+.serviceSelectText {
+  align-self: flex-start;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+
+.serviceSelect#signUp {
+  margin-top: -0.6em;
+  margin-left: 0px;
+  width: 100%;
+}
+
+.registerButton:hover {
+  background-color: rgb(131, 131, 131);
+}

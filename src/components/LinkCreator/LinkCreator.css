@@ -1,16 +1,3 @@
-.errorPopUp {
-  color: white;
-  font-weight: bold;
-  font-family: "Courier New", Courier, monospace;
-  background-color: red;
-  padding: 10px;
-  border-radius: 40px;
-  position: absolute;
-  top: 2px;
-  transition: all ease-in-out 0.6s;
-  opacity: 0%;
-}
-
 .songInput {
   z-index: 1;
   padding: 10px;
@@ -20,7 +7,17 @@
   background: #f7f7f7;
   border-radius: 20px;
   width: 60vw;
-  height: 4vh;
+  height: 2.5em;
+}
+
+.itemTypeSelect {
+  font-weight: bold;
+  font-size: medium;
+  width: 8em;
+  height: 2.5em;
+  border: 10px;
+  margin: 10px;
+  padding: 10px;
 }
 
 .generateLinkButton {

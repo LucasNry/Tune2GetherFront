@@ -1,0 +1,29 @@
+.loginFormWrapper {
+  height: 25em;
+  display: flex;
+  flex-direction: column;
+}
+
+.loginInput#email {
+  margin-bottom: 10px;
+  width: 40em;
+}
+
+.submitLoginInfoButton {
+  margin: 30px 0px;
+  width: auto;
+  transition: all ease-in-out 0.4s;
+}
+
+.submitLoginInfoButton:hover {
+  background-color: rgb(131, 131, 131);
+}
+
+.signUpText {
+  color: rgb(0, 145, 255);
+}
+
+.signUpText:hover {
+  color: rgb(0, 110, 194);
+  cursor: pointer;
+}

@@ -2,7 +2,7 @@ import { useParams } from "react-router";
 import { Tune2GetherAPIFacade } from "../../utils/Tune2GetherAPIFacade";
 import spotifyLogo from "../../resources/Spotify logo.png";
 import deezerLogo from "../../resources/Deezer logo.png";
-import ytMusicLogo from "../../resources/YT Music logo.png";
+import ytMusicLogo from "../../resources/YTMusic logo.png";
 import { LinkComponent } from "../LinkComponent/LinkComponent";
 import { useEffect, useState } from "react";
 import "./LinkScreen.css";
